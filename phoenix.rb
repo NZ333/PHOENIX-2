@@ -1,12 +1,12 @@
 require 'api-ai-ruby'
 require 'discordrb'
 
-bot = Discordrb::Bot.new token: ENV['ODA3MzQ5MzUwMDM2NTM3MzU0.YB2srA.MjObYCiHHMweTXu8kQbN6adTJb8'], ignore_bots: true
+bot = Discordrb::Bot.new token: ENV[ODA3MzQ5MzUwMDM2NTM3MzU0.YB2srA.MjObYCiHHMweTXu8kQbN6adTJb8], ignore_bots: true
 sessions = {}
 
 bot.ready do |event|
   puts "Logged in as #{bot.profile.username} (ID:#{bot.profile.id}) | #{bot.servers.size} servers"
-  bot.game = ENV['BOT_GAME']
+  bot.game = ENV['en NZ333 community']
 end
 
 bot.message do |event|
