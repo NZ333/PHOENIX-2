@@ -1,7 +1,7 @@
 require 'api-ai-ruby'
 require 'discordrb'
 
-bot = Discordrb::Bot.new token: ENV['BOT_TOKEN'], ignore_bots: true
+bot = Discordrb::Bot.new token: ENV['ODA3MzQ5MzUwMDM2NTM3MzU0.YB2srA.MjObYCiHHMweTXu8kQbN6adTJb8'], ignore_bots: true
 sessions = {}
 
 bot.ready do |event|
